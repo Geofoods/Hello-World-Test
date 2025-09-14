@@ -1,7 +1,7 @@
 secretWord = "giraffe"
 guess = ""
 guessCount = 0
-guessLimit = 3
+guessLimit = 5
 outOfGuesses = False
 while guess != secretWord and not(outOfGuesses):
     if guessCount < guessLimit:
